@@ -1,0 +1,106 @@
+Great! Let's take it to the next level with a more advanced project that will force you to use everything you’ve learned — plus some new concepts like form validation, grouping inputs, and styling!
+
+🚀 Advanced Project: User Registration Form with Custom Styling
+✅ Task:
+Create a User Registration Form that collects the following information:
+
+Full Name → text input
+
+Username → text input
+
+Email → email input
+
+Password → password input
+
+Confirm Password → password input
+
+Age → number input (must be at least 18)
+
+Gender → radio buttons (Male, Female, Other)
+
+Interests → multiple checkboxes (e.g., Music, Sports, Coding, etc.)
+
+Country → select dropdown (at least 5 countries)
+
+Bio → textarea for personal description
+
+Finally:
+
+✅ Add two buttons:
+
+One to submit the form.
+
+One to reset all fields.
+
+✅ Advanced Requirements:
+All fields must have required attributes where appropriate.
+
+Use placeholder text for inputs like name, username, email, etc.
+
+Use label tags correctly connected with for and id.
+
+Style the form beautifully with CSS:
+
+Center the form on the page.
+
+Add padding, margin, and box shadows.
+
+Style buttons with hover effects.
+
+Style inputs with rounded corners.
+
+Use fieldset and legend to group related inputs:
+
+One for personal info.
+
+One for account info.
+
+One for preferences.
+
+✅ Optional for Extra Challenge:
+Use CSS :focus and :hover pseudo-classes for interactivity.
+
+Use HTML attributes like pattern or minlength for basic validation.
+
+Use disabled attribute for one option in the select (e.g., "Select your country").
+
+✅ Deliverable:
+An HTML file with the complete form, fully styled with internal or external CSS.
+
+🎯 Key Learning Objectives:
+Correct use of form attributes (name, id, required, etc.).
+
+Organizing complex forms using fieldset and legend.
+
+Using different input types.
+
+Adding accessible labels.
+
+Styling forms and buttons with CSS.
+
+✅ Example visual layout:
+
+
+[ Personal Information ]
+Full Name:  __________
+Username:   __________
+Email:      __________
+Age:        __________
+Gender:  ( ) Male ( ) Female ( ) Other
+
+[ Account Information ]
+Password:           __________
+Confirm Password:   __________
+
+[ Preferences ]
+Interests: [ ] Music [ ] Sports [ ] Coding [ ] Reading
+Country:   [ select ]
+
+Bio:
+_____________________
+|                   |
+|                   |
+|                   |
+---------------------
+
+[ Submit ]  [ Reset ]
