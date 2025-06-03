@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form action="/submissionpage" method="post">
+        <h1>Form Submission</h1>
+
+        <section>
+            <h2>Personal Information</h2>
+
+            <div class="input-group">
+                <label for="realname">Enter your real name:</label>
+                <input type="text" id="realname" name="realname" required>
+            </div>
+
+            <div class="input-group">
+                <label for="username">Enter your username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="age">Enter your age (must be 18+):</label>
+                <input type="number" id="age" name="age" min="18" max="150" required>
+            </div>
+
+            <label>Select your gender:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="prefer"> Prefer not to say</label>
+            </div>
+        </section>
+
+        <section>
+            <h2>Account Information</h2>
+
+            <div class="input-group">
+                <label for="password">Enter your password: (NAO COLOQUE SUA SENHA REAL, ESTE FORMULARIO É APENAS UM
+                    TESTE.)</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirm-password">Confirm your password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+        </section>
+
+        <section>
+            <h2>Preferences</h2>
+
+            <div class="input-group">
+                <label for="country">Select your country:</label>
+                <select id="country" name="country">
+                    <option value="brazil" required>Brazil </option>
+                    <option value="usa">USA</option>
+                    <option value="germany">Germany</option>
+                    <option value="japan">Japan</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interests</h2>
+            <p>Check all of your interests:</p>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="interest" value="coding"> Coding</label>
+                <label><input type="checkbox" name="interest" value="music"> Music</label>
+                <label><input type="checkbox" name="interest" value="videogames"> Videogames</label>
+                <label><input type="checkbox" name="interest" value="sports"> Sports</label>
+                <label><input type="checkbox" name="interest" value="writing"> Writing</label>
+            </div>
+        </section>
+
+        <section>
+            <h2>Additional Comments</h2>
+            <div class="input-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+        </section>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
